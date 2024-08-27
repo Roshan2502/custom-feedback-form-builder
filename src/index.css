@@ -16,49 +16,49 @@ body {
 nav {
     background-color: #ffffff;
     width: 100%;
-    height: 64px;
+    height: 50px;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 10px #c2c2c2;
     padding: 0px 15px;
-    font-size: 23px;
+    font-size: 20px;
     border-bottom: 2px solid rgb(226, 226, 226);
 }
 
 nav img {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
 }
 
 /* *************************************** */
 
 .dashboard-container {
     display: flex;
-    margin: 50px;
-    gap: 50px;
+    margin: 40px;
+    gap: 30px;
 }
 
 .dashboard-item {
     background-color: #ffffff;
-    height: 350px;
-    width: 280px;
+    height: 300px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #c2c2c2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 70px;
+    padding: 60px;
 }
 
 .dashboard-item img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 
 .feedback-container {
     display: grid;
-    gap: 50px;
+    gap: 30px;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -66,8 +66,8 @@ nav img {
 
 .feedback-item {
     background-color: #ffffff;
-    height: 350px;
-    width: 280px;
+    height: 300px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #c2c2c2;
     display: flex;
@@ -88,15 +88,16 @@ nav img {
 }
 
 .feedback-item .icon-div img {
-    height: 50px;
+    height: 40px;
 }
 
 .feedback-item .feedback-text {
-    height: 150px;
-    width: 220px;
+    height: 130px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 5px;
 }
 .feedback-item .feedback-text div {
     display: flex;
@@ -104,37 +105,41 @@ nav img {
 }
 .feedback-item .feedback-text div article {
     color: #636262;
+    font-size: 15px;
 }
 
 .feedback-item .btn-div {
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .feedback-item .btn-div button {
     margin: 5px;
-    padding: 9px;
+    padding: 7px;
     border: none;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 14px;
     color: whitesmoke;
 }
 .feedback-item .btn-div #view-btn {
     background-color: #9c27b0;
-    width: 160px;
+    width: 140px;
 }
 .feedback-item .btn-div #edit-btn {
     background-color: #2e7d32;
-    width: 65px;
+    width: 55px;
 }
 .feedback-item .btn-div #delete-btn {
     background-color: #2196f3;
-    width: 85px;
+    width: 75px;
 }
 
 /* *********************** */
 
 .createForm {
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -148,7 +153,7 @@ nav img {
     height: 40px;
     width: 100%;
     padding: 10px;
-    font-size: 20px;
+    font-size: 14px;
     border-bottom: 3px solid #9e9d9d;
 }
 
@@ -156,10 +161,11 @@ nav img {
     width: 100px;
     background-color: #ffffff;
     border: none;
-    font-size: 22px;
+    font-size: 18px;
     color: #189657;
     font-weight: bold;
     letter-spacing: 0.8px;
+    margin-top: 5px;
 }
 
 /* ****************** */
@@ -177,11 +183,11 @@ nav img {
     justify-content: end;
 }
 .innerContent{
-    width: 550px;
+    width: 500px;
     background-color: #ffffff;
-    height: 1500px;
+    height: max-content;
     border-radius: 15px;
-    margin: 50px;
+    margin: 40px;
 }
 .innerContent form {
     height: inherit;
@@ -193,35 +199,34 @@ nav img {
 }
 .innerContent form article{
     background-color: #5578f4;
-    height: 80px;
+    height: 60px;
     width: inherit;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     color: whitesmoke;
-    font-size: 24px;
-    padding: 20px 40px;
+    font-size: 20px;
+    padding: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 .innerContent form article #edit {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 .form-group {
     height: max-content;
-    width: 510px;
+    width: 480px;
     box-shadow: 0px 1px 5px rgb(204, 204, 204);
-    margin: 10px;
+    margin: 6px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    padding-top: 20px;
     justify-content: space-evenly;
 }
 .form-group label{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .form-group input[type=textarea] {
@@ -242,7 +247,7 @@ nav img {
 }
 
 .form-group input[type=text] {
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
     outline: none;
     width: 100%;
@@ -261,27 +266,28 @@ nav img {
 .form-group .radiodiv {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 5px;
+    margin-top: 5px;
 }
 .form-group .radiodiv label{
     height: 30px;
     width: 100%;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 .form-group .radiodiv input[type=radio] {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
 }
 
 .form-group .btndiv {
-    height: 40px;
+    height: 30px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .form-group .btndiv input[type=button]{
-    width: 120px;
+    width: 90px;
     background-color: #ffffff;
     border: 2px solid #ccc;
 }
@@ -289,16 +295,15 @@ nav img {
 .form-button {
     background-color: #5578f4;
     color: whitesmoke;
-    height: 50px;
-    width: 120px;
+    height: 40px;
+    width: 100px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 350px;
+    margin: 10px 0px 10px 320px;
 }
 
 .form-group .editdelete {
-    margin-left: 420px;
+    margin-left: 380px;
 }
 .form-group .editdelete #del {
     margin-left: 25px;
@@ -306,27 +311,27 @@ nav img {
 
 /* *********** */
 .sidebar {
-    width: 300px;
+    width: 250px;
     background-color: #ffffff;
-    margin-left: 350px;
+    margin-left: 300px;
     padding: 25px;
 }
 
-.sidebar h4{
-    margin-bottom: 30px;
+.sidebar h5{
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
 .sidebar-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
 }
 
 .sidebar-content img {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
 
 .sidebar-content div {
@@ -337,32 +342,32 @@ nav img {
 /* ******************* */
 .main-view {
     background-color: #f3f3f3;
-    height: 100vh;
+    height: max-content;
     width: 100%;
-    padding: 30px 25px;
+    padding: 20px 25px;
 }
 .main-view .view-container {
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     height: max-content;
 }
 
 .main-view .view-container .heading {
     background-color: #5578f4;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 /* *********** */
 .views-submitted {
     display: flex;
-    padding: 60px 150px 30px;
+    padding: 50px 150px 20px;
     gap: 150px;
 }
 .views-submitted div{
@@ -372,11 +377,11 @@ nav img {
     align-items: center;
 }
 .views-submitted div h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 .views-submitted div p{
-    font-size: 24px;
+    font-size: 22px;
     color: #9b9b9b;
 }
 /* *** */
@@ -390,10 +395,10 @@ nav img {
 }
 
 .main-view .view-container .section2 {
-    padding: 35px;
+    padding: 25px 35px;
 }
 .main-view .view-container .section2 article {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 }
 .main-view .view-container .section2 .maindiv {
@@ -407,13 +412,12 @@ nav img {
 .main-view .view-container .section2 .maindiv .divname {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
 }
 .main-view .view-container .section2 .maindiv .divname h5 {
     color: #5578f4;
 }
 .main-view .view-container .section2 .maindiv .divname p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .main-view .view-container .section2 .maindiv #desc {

@@ -153,7 +153,7 @@ const FeedbackForm = () => {
       </section>
 
       <main className='sidebar'>
-      <h4>Add fields</h4>
+      <h5>Add fields</h5>
       <section className='sidebar-content'>
         <div>
           <img src="../images/textarea_icon.png" alt="" />

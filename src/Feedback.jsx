@@ -33,18 +33,18 @@ const Feedback = () => {
                             <img src="../images/note.png" alt="" />
                         </div>
                         <div  className='feedback-text'>
-                            <h4>{item.fname}</h4>
+                            <h5>{item.fname}</h5>
                             <div>
                                 <article>Submitted</article> 
-                                <h5>{item.submitted}</h5>
+                                <h6>{item.submitted}</h6>
                             </div>
                             <div>
                                 <article>Viewed</article> 
-                                <h5>{item.viewed}</h5>
+                                <h6>{item.viewed}</h6>
                             </div>
                             <div>
                                 <article>Date Published</article> 
-                                <h5>{item.date_published}</h5>
+                                <h6>{item.date_published}</h6>
                             </div>
                         </div>
                         <div className='btn-div'>

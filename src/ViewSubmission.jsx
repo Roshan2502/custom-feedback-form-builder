@@ -48,7 +48,7 @@ const ViewSubmission = () => {
         <div className='view-container'>
             <article className='heading'>
                 <div>
-                    <img src="../public/images/arraw.png" alt="" />
+                    <img src="../images/arraw.png" alt="" />
                     {fname}
                 </div>
                 <div>

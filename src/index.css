@@ -1,0 +1,422 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px #c2c2c2;
+    padding: 0px 15px;
+    font-size: 23px;
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+nav img {
+    height: 55px;
+    width: 55px;
+}
+
+/* *************************************** */
+
+.dashboard-container {
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.dashboard-item {
+    background-color: #ffffff;
+    height: 350px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c2c2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.dashboard-item img {
+    height: 70px;
+    width: 70px;
+}
+
+.feedback-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* ********************************* */
+
+.feedback-item {
+    background-color: #ffffff;
+    height: 350px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c2c2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-item .icon-div {
+    background-color: #f5d563;
+    width: inherit;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-item .icon-div img {
+    height: 50px;
+}
+
+.feedback-item .feedback-text {
+    height: 150px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.feedback-item .feedback-text div {
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-item .feedback-text div article {
+    color: #636262;
+}
+
+.feedback-item .btn-div {
+    padding: 5px;
+}
+
+.feedback-item .btn-div button {
+    margin: 5px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.feedback-item .btn-div #view-btn {
+    background-color: #9c27b0;
+    width: 160px;
+}
+.feedback-item .btn-div #edit-btn {
+    background-color: #2e7d32;
+    width: 65px;
+}
+.feedback-item .btn-div #delete-btn {
+    background-color: #2196f3;
+    width: 85px;
+}
+
+/* *********************** */
+
+.createForm {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    padding: 10px;
+}
+
+.createForm .inputFeedbackName {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid #9e9d9d;
+}
+
+.createForm .createbtn {
+    width: 100px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 22px;
+    color: #189657;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+/* ****************** */
+.starinput{
+    display: none;
+}
+.star{
+    cursor: pointer;
+}
+
+/* ***************** */
+.content {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: end;
+}
+.innerContent{
+    width: 550px;
+    background-color: #ffffff;
+    height: 1500px;
+    border-radius: 15px;
+    margin: 50px;
+}
+.innerContent form {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.innerContent form article{
+    background-color: #5578f4;
+    height: 80px;
+    width: inherit;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 20px 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.innerContent form article #edit {
+    height: 30px;
+    width: 30px;
+}
+.form-group {
+    height: max-content;
+    width: 510px;
+    box-shadow: 0px 1px 5px rgb(204, 204, 204);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+.form-group label{
+    margin-bottom: 10px;
+}
+
+.form-group input[type=textarea] {
+    height: 70px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.form-group input[type=textarea]:focus {
+    border: 2px solid #555;
+}
+
+.form-group input[type=text] {
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.form-group input[type=text]:focus {
+    border: 2px solid #555;
+}
+
+.form-group .radiodiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.form-group .radiodiv label{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.form-group .radiodiv input[type=radio] {
+    height: 20px;
+    width: 20px;
+}
+
+.form-group .btndiv {
+    height: 40px;
+    display: flex;
+    gap: 20px;
+}
+.form-group .btndiv input[type=button]{
+    width: 120px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+}
+
+.form-button {
+    background-color: #5578f4;
+    color: whitesmoke;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+.form-group .editdelete {
+    margin-left: 420px;
+}
+.form-group .editdelete #del {
+    margin-left: 25px;
+}
+
+/* *********** */
+.sidebar {
+    width: 300px;
+    background-color: #ffffff;
+    margin-left: 350px;
+    padding: 25px;
+}
+
+.sidebar h4{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.sidebar-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sidebar-content img {
+    height: 25px;
+    width: 25px;
+}
+
+.sidebar-content div {
+    display: flex;
+    gap: 10px;
+}
+
+/* ******************* */
+.main-view {
+    background-color: #f3f3f3;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 25px;
+}
+.main-view .view-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: max-content;
+}
+
+.main-view .view-container .heading {
+    background-color: #5578f4;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 23px;
+}
+
+/* *********** */
+.views-submitted {
+    display: flex;
+    padding: 60px 150px 30px;
+    gap: 150px;
+}
+.views-submitted div{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+}
+.views-submitted div h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.views-submitted div p{
+    font-size: 24px;
+    color: #9b9b9b;
+}
+/* *** */
+
+.main-view .view-container .section1 {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.main-view .view-container .section2 {
+    padding: 35px;
+}
+.main-view .view-container .section2 article {
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-view .view-container .section2 .maindiv {
+    padding: 10px 20px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 5px #9c9c9c;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.main-view .view-container .section2 .maindiv .divname {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main-view .view-container .section2 .maindiv .divname h5 {
+    color: #5578f4;
+}
+.main-view .view-container .section2 .maindiv .divname p {
+    font-size: 18px;
+}
+
+.main-view .view-container .section2 .maindiv #desc {
+    color: #9e9e9d;
+    width: 80%;
+}

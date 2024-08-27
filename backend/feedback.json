@@ -1,0 +1,46 @@
+{
+  "feedbackdata": [
+    {
+      "fname": "Delivery",
+      "textarea": "abc",
+      "numeric_rating": "5",
+      "star_rating": "5",
+      "smiley_rating": "5",
+      "single_line_input": "abc",
+      "radio_button": "Radio 2",
+      "categories": "abc",
+      "submitted": "10",
+      "viewed": "55",
+      "date_published": "8/8/2024",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "fname": "Product Quality",
+      "textarea": "abc",
+      "numeric_rating": "5",
+      "star_rating": "5",
+      "smiley_rating": "5",
+      "single_line_input": "abc",
+      "radio_button": "1",
+      "categories": "abc",
+      "submitted": "100",
+      "viewed": "300",
+      "date_published": "7/8/2024"
+    },
+    {
+      "fname": "Generic Website Rating",
+      "textarea": "The website is user friendly and easy to navigate. I found exactly what I was looking for without any hassle. The checkout process was quickly, and I appreciate the seamless online shopping experience.",
+      "numeric_rating": "5",
+      "star_rating": "2",
+      "smiley_rating": "4",
+      "single_line_input": "The website is user-friendly and easy to navigate. I found exactly what I was looking for without any hassle. The checkout process was quick, and I appreciate the seamless online shopping experience.",
+      "radio_button": "Radio 1",
+      "categories": "Bug",
+      "submitted": "3",
+      "viewed": "40",
+      "date_published": "26/7/2024",
+      "id": "fdfc"
+    }
+  ]
+}

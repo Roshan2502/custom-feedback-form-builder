@@ -66,16 +66,16 @@ const FeedbackForm = () => {
         
         <form onSubmit={handleSubmit}>
           <article>
-            <img src="../public/images/arraw.png" alt="arrow" />
+            <img src="../images/arraw.png" alt="arrow" />
             {fname}
-            <img src="../public/images/edit1.png" alt="edit" id='edit' />
+            <img src="../images/edit1.png" alt="edit" id='edit' />
           </article>
           <div className="form-group">
             <label>Would you like to add a comment?</label>
             <input type="textarea" name='textarea' value={textarea} onChange={handleChange} />
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -83,8 +83,8 @@ const FeedbackForm = () => {
             <label>How likely is it that you will recommend us to your family and friends?</label>
             <input type="text" name='numeric_rating' value={numeric_rating} onChange={handleChange} />
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -92,8 +92,8 @@ const FeedbackForm = () => {
             <label>Give a star rating for the website</label>
             <StarRating/>
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -102,8 +102,8 @@ const FeedbackForm = () => {
             {/* <input type="text" name='smiley_rating' value={smiley_rating} onChange={handleChange} /> */}
             <EmojiRating/>
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -111,8 +111,8 @@ const FeedbackForm = () => {
             <label>Do you have any suggestions to improve our website?</label>
             <input type="text" name='single_line_input' value={single_line_input} onChange={handleChange} />
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -130,8 +130,8 @@ const FeedbackForm = () => {
               </label>
             </div>
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -143,8 +143,8 @@ const FeedbackForm = () => {
               <input type="button" name='categories' value="Other" onChange={handleChange} />
             </div>
             <div className='editdelete'>
-              <img src="../public/images/edit.png" alt="edit" />
-              <img src="../public/images/delete.png" alt="delete" id='del' />
+              <img src="../images/edit.png" alt="edit" />
+              <img src="../images/delete.png" alt="delete" id='del' />
             </div>
           </div>
 
@@ -156,58 +156,58 @@ const FeedbackForm = () => {
       <h4>Add fields</h4>
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/textarea_icon.png" alt="" />
+          <img src="../images/textarea_icon.png" alt="" />
           <p>Textarea</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/numerical_icon.png" alt="" />
+          <img src="../images/numerical_icon.png" alt="" />
           <p>Numeric rating</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/smiley_icon.png" alt="" />
+          <img src="../images/smiley_icon.png" alt="" />
           <p>Star rating</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/star_icon.png" alt="" />
+          <img src="../images/star_icon.png" alt="" />
           <p>Smiley rating</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/input_icon.png" alt="" />
+          <img src="../images/input_icon.png" alt="" />
           <p>Single line input</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/radio_icon.png" alt="" />
+          <img src="../images/radio_icon.png" alt="" />
           <p>Radio button</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
 
       <section className='sidebar-content'>
         <div>
-          <img src="../public/images/cate_icon.png" alt="" />
+          <img src="../images/cate_icon.png" alt="" />
           <p>Categories</p>
         </div>
-        <img src="../public/images/+.png" alt="" />
+        <img src="../images/+.png" alt="" />
       </section>
     </main>
 

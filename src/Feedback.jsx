@@ -30,7 +30,7 @@ const Feedback = () => {
                 return (
                     <div key={item.id} className='feedback-item'>
                         <div className='icon-div'>
-                            <img src="../public/images/note.png" alt="" />
+                            <img src="../images/note.png" alt="" />
                         </div>
                         <div  className='feedback-text'>
                             <h4>{item.fname}</h4>

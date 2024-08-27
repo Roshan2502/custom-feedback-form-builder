@@ -64,7 +64,7 @@ const Dashboard = () => {
 
     <div className="dashboard-container">
         <div className='dashboard-item' onClick={()=>setmodal(true)}>
-            <img src="../public/images/add.png" alt="Add icon" />
+            <img src="../images/add.png" alt="Add icon" />
             <h2>New form</h2>
         </div>
         <div className='feedback-container'>

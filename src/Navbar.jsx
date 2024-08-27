@@ -1,10 +1,9 @@
 import React from 'react'
-import {feedback} from "./images/feedback.png"
 
 const Navbar = () => {
   return (
     <nav>
-        <img src={feedback} alt="LOGO" />
+        <img src="../images/feedback.png" alt="LOGO" />
         <div>USER FEEDBACK</div>
     </nav>
   )

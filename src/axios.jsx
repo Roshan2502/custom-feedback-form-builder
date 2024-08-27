@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Api = axios.create({
-    baseURL: "http://localhost:3000"
+    baseURL: "https://feedback-0468.onrender.com"
 })
 
 export default Api;
